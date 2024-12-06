@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Captcha-game/static/css/main.5cdb2268.css",
+    "main.js": "/Captcha-game/static/js/main.1c6a2343.js",
+    "static/media/8.svg": "/Captcha-game/static/media/8.2f61a4c04e4af0a2c4e4.svg",
+    "static/media/7.svg": "/Captcha-game/static/media/7.f8c63a9da94354185415.svg",
+    "static/media/6.svg": "/Captcha-game/static/media/6.5954a08e5dc2b7ee6549.svg",
+    "static/media/5.svg": "/Captcha-game/static/media/5.d9404fdcda45a2421df9.svg",
+    "static/media/4.svg": "/Captcha-game/static/media/4.b5af06c1d679f8c72ad2.svg",
+    "static/media/3.svg": "/Captcha-game/static/media/3.a63126882a270ed39f05.svg",
+    "static/media/2.svg": "/Captcha-game/static/media/2.7ab42ae96f4da6bf5318.svg",
+    "static/media/1.svg": "/Captcha-game/static/media/1.e257d496698f9d73a891.svg",
+    "index.html": "/Captcha-game/index.html",
+    "main.5cdb2268.css.map": "/Captcha-game/static/css/main.5cdb2268.css.map",
+    "main.1c6a2343.js.map": "/Captcha-game/static/js/main.1c6a2343.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cdb2268.css",
+    "static/js/main.1c6a2343.js"
+  ]
+}
