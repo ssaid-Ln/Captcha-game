@@ -1,0 +1,77 @@
+/* App.css */
+
+
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cards, .options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card.option:hover {
+  transform: scale(1.05);
+}
+
+.card.hidden {
+  background-color: black;
+  color: black;
+}
+
+.message {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.options .card {
+  background-color: #f0f0f0;
+}
+
+.options .card:hover {
+  background-color: #e0e0e0;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
