@@ -13,7 +13,7 @@ const objectsList = Array.from({ length: TOTAL_CARDS }, (_, index) => {
   return {
     num,
     sign,
-    url: `/Cartes/${sign}/${num}.svg`,
+    url: require( `./Cartes/${sign}/${num}.svg`),
   };
 });
 
@@ -38,7 +38,7 @@ const App = () => {
       return {
         num,
         sign,
-        url: `/Cartes/${sign}/${num}.svg`
+        url: require(`./Cartes/${sign}/${num}.svg`)
       };
     });
 
